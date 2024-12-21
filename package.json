@@ -43,5 +43,10 @@
   "packageManager": "yarn@3.2.3",
   "engines": {
     "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "flowbite-react": "^0.10.2",
+    "ipfs-http-client": "^60.0.1"
   }
 }
