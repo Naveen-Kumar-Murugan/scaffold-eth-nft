@@ -6009,20 +6009,20 @@ __metadata:
   linkType: hard
 
 "cross-fetch@npm:^3.1.4":
-  version: 3.1.8
-  resolution: "cross-fetch@npm:3.1.8"
+  version: 3.2.0
+  resolution: "cross-fetch@npm:3.2.0"
   dependencies:
-    node-fetch: ^2.6.12
-  checksum: 78f993fa099eaaa041122ab037fe9503ecbbcb9daef234d1d2e0b9230a983f64d645d088c464e21a247b825a08dc444a6e7064adfa93536d3a9454b4745b3632
+    node-fetch: ^2.7.0
+  checksum: 8ded5ea35f705e81e569e7db244a3f96e05e95996ff51877c89b0c1ec1163c76bb5dad77d0f8fba6bb35a0abacb36403d7271dc586d8b1f636110ee7a8d959fd
   languageName: node
   linkType: hard
 
 "cross-fetch@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "cross-fetch@npm:4.0.0"
+  version: 4.1.0
+  resolution: "cross-fetch@npm:4.1.0"
   dependencies:
-    node-fetch: ^2.6.12
-  checksum: ecca4f37ffa0e8283e7a8a590926b66713a7ef7892757aa36c2d20ffa27b0ac5c60dcf453119c809abe5923fc0bae3702a4d896bfb406ef1077b0d0018213e24
+    node-fetch: ^2.7.0
+  checksum: c02fa85d59f83e50dbd769ee472c9cc984060c403ee5ec8654659f61a525c1a655eef1c7a35e365c1a107b4e72d76e786718b673d1cb3c97f61d4644cb0a9f9d
   languageName: node
   linkType: hard
 
@@ -9385,11 +9385,11 @@ __metadata:
   linkType: hard
 
 "is-core-module@npm:^2.13.0, is-core-module@npm:^2.15.1, is-core-module@npm:^2.16.0":
-  version: 2.16.0
-  resolution: "is-core-module@npm:2.16.0"
+  version: 2.16.1
+  resolution: "is-core-module@npm:2.16.1"
   dependencies:
     hasown: ^2.0.2
-  checksum: 98aa14eaee864c2e86fff4e08813e0da3ca7ac38dd0a43b9f10aeec48bfbc4827e2677349adb626f66921caef7fa9e2745c80b8b7cafe8ac24d46dc8124cc216
+  checksum: 6ec5b3c42d9cbf1ac23f164b16b8a140c3cec338bf8f884c076ca89950c7cc04c33e78f02b8cae7ff4751f3247e3174b2330f1fe4de194c7210deb8b1ea316a7
   languageName: node
   linkType: hard
 
@@ -11166,7 +11166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.12, node-fetch@npm:^2.6.7, node-fetch@npm:^2.6.8":
+"node-fetch@npm:^2.6.7, node-fetch@npm:^2.6.8, node-fetch@npm:^2.7.0":
   version: 2.7.0
   resolution: "node-fetch@npm:2.7.0"
   dependencies:
