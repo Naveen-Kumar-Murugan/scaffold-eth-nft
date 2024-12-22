@@ -87,7 +87,6 @@ const MintNFT: NextPage = () => {
   return (
     <>
       <div className=" justify-center mx-auto w-72 my-auto">
-        <h1 className="w-auto text-center">Hi</h1>
         <form className="flex w-auto flex-col gap-4">
           <div>
             <div className="mb-2 block">

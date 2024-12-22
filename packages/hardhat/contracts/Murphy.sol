@@ -6,19 +6,16 @@ import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import {ERC721Burnable} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import {ERC721Enumerable} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+//import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+//import "@openzeppelin/contracts/utils/Counters.sol";
 
 
-contract Murphy is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable, Ownable {
+contract Murphy is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable {
 
-    using Counters for Counters.Counter;
-
-	Counters.Counter public tokenIdCounter;
+	uint256 public tokenCounter;
 
     constructor(address initialOwner)
         ERC721("Murphy", "MPY")
-        Ownable(initialOwner)
     {}
 
     function _baseURI() internal pure override returns (string memory) {
@@ -27,11 +24,10 @@ contract Murphy is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable, O
 
     function mintItem(address to, string memory uri)
         public
-        onlyOwner
         returns (uint)
     {
-        tokenIdCounter.increment();
-        uint256 tokenId = tokenIdCounter.current();
+        tokenCounter++;
+        uint256 tokenId = tokenCounter;
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
         return tokenId;
