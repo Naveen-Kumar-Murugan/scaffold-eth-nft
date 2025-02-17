@@ -11,6 +11,7 @@
     "account": "yarn workspace @se-2/hardhat account",
     "account:generate": "yarn workspace @se-2/hardhat account:generate",
     "account:import": "yarn workspace @se-2/hardhat account:import",
+    "build": "next build",
     "chain": "yarn workspace @se-2/hardhat chain",
     "compile": "yarn workspace @se-2/hardhat compile",
     "deploy": "yarn workspace @se-2/hardhat deploy",
